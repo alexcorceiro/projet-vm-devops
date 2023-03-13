@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "remote.SSH.remotePlatform": {
+        "192.168.44.130": "linux"
+    }
+}

@@ -1,0 +1,92 @@
+2023-03-13 11:45:21.846 [info] Niveau de journal : Info
+2023-03-13 11:45:21.846 [info] Validation du git trouvé dans : «git»
+2023-03-13 11:45:21.846 [info] Utilisation de git «2.30.2» à partir de «git»
+2023-03-13 11:45:21.846 [info] > git rev-parse --show-toplevel [12ms]
+2023-03-13 11:45:21.846 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.846 [info] > git rev-parse --show-toplevel [57ms]
+2023-03-13 11:45:21.846 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.847 [info] > git rev-parse --show-toplevel [22ms]
+2023-03-13 11:45:21.847 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.879 [info] > git rev-parse --show-toplevel [42ms]
+2023-03-13 11:45:21.879 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.934 [info] > git rev-parse --show-toplevel [29ms]
+2023-03-13 11:45:21.934 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.968 [info] > git rev-parse --show-toplevel [17ms]
+2023-03-13 11:45:21.968 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:21.987 [info] > git rev-parse --show-toplevel [6ms]
+2023-03-13 11:45:21.987 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:22.018 [info] > git rev-parse --show-toplevel [21ms]
+2023-03-13 11:45:22.018 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:22.186 [info] > git rev-parse --show-toplevel [160ms]
+2023-03-13 11:45:22.186 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:22.207 [info] > git rev-parse --show-toplevel [8ms]
+2023-03-13 11:45:22.207 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:45:22.226 [info] > git rev-parse --show-toplevel [7ms]
+2023-03-13 11:45:22.226 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:52:39.451 [info] > git rev-parse --show-toplevel [6ms]
+2023-03-13 11:52:39.452 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 11:55:01.882 [info] > git rev-parse --show-toplevel [4ms]
+2023-03-13 11:55:01.882 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 12:14:35.210 [info] > git rev-parse --show-toplevel [3ms]
+2023-03-13 12:14:35.210 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 12:19:20.108 [info] > git rev-parse --show-toplevel [6ms]
+2023-03-13 12:19:20.108 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 12:20:07.727 [info] > git rev-parse --show-toplevel [5ms]
+2023-03-13 12:20:07.727 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 12:54:41.592 [info] > git rev-parse --show-toplevel [6ms]
+2023-03-13 12:54:41.593 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 14:03:15.198 [info] > git rev-parse --show-toplevel [8ms]
+2023-03-13 14:03:15.199 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-13 14:11:03.316 [info] > git rev-parse --show-toplevel [4ms]
+2023-03-13 14:11:03.331 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-03-13 14:11:03.359 [info] Open repository: /home/global
+2023-03-13 14:11:03.396 [info] No remotes found in the git config file.
+2023-03-13 14:11:03.398 [info] > git config --get commit.template [18ms]
+2023-03-13 14:11:03.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-03-13 14:11:03.718 [info] > git show --textconv :build/docker-compose.yaml [32ms]
+2023-03-13 14:11:03.718 [info] > git show --textconv :build/dockerfile [23ms]
+2023-03-13 14:11:03.718 [info] > git ls-files --stage -- /home/global/build/docker-compose.yaml [12ms]
+2023-03-13 14:11:03.729 [info] > git ls-files --stage -- /home/global/build/dockerfile [11ms]
+2023-03-13 14:11:03.938 [info] > git check-ignore -v -z --stdin [5ms]
+2023-03-13 14:11:04.483 [info] > git status -z -uall [1072ms] (cancelled)
+2023-03-13 14:11:12.760 [info] > git config --get commit.template [22ms]
+2023-03-13 14:11:12.777 [info] No remotes found in the git config file.
+2023-03-13 14:11:12.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2023-03-13 14:11:15.863 [info] > git status -z -uall [3045ms] (cancelled)
+2023-03-13 14:12:40.918 [info] > git ls-files --stage -- /home/global/build/docker-compose.yaml [21ms]
+2023-03-13 14:12:40.930 [info] > git ls-files --stage -- /home/global/build/dockerfile [24ms]
+2023-03-13 14:12:40.941 [info] > git cat-file -s 439c06c7ae580f1449cfef64e56f280cbafe0c54 [14ms]
+2023-03-13 14:12:40.944 [info] > git cat-file -s 5a4c85f958ca017b8ba7a500e069b8d317dfab2f [5ms]
+2023-03-13 14:12:40.983 [info] > git show --textconv :build/docker-compose.yaml [15ms]
+2023-03-13 14:12:40.997 [info] > git show --textconv :build/dockerfile [18ms]
+2023-03-13 14:13:06.044 [info] > git ls-files --stage -- /home/global/build/docker-compose.yaml [24ms]
+2023-03-13 14:13:06.056 [info] > git ls-files --stage -- /home/global/build/dockerfile [23ms]
+2023-03-13 14:13:06.067 [info] > git cat-file -s 439c06c7ae580f1449cfef64e56f280cbafe0c54 [13ms]
+2023-03-13 14:13:06.070 [info] > git cat-file -s 5a4c85f958ca017b8ba7a500e069b8d317dfab2f [5ms]
+2023-03-13 14:13:06.115 [info] > git show --textconv :build/docker-compose.yaml [24ms]
+2023-03-13 14:13:06.126 [info] > git show --textconv :build/dockerfile [23ms]
+2023-03-13 14:15:25.329 [info] > git check-ignore -v -z --stdin [22ms]
+2023-03-13 14:16:01.090 [info] > git ls-files --stage -- /home/global/build/docker-compose.yaml [20ms]
+2023-03-13 14:16:01.105 [info] > git ls-files --stage -- /home/global/build/dockerfile [17ms]
+2023-03-13 14:16:01.116 [info] > git cat-file -s 439c06c7ae580f1449cfef64e56f280cbafe0c54 [17ms]
+2023-03-13 14:16:01.119 [info] > git cat-file -s 5a4c85f958ca017b8ba7a500e069b8d317dfab2f [4ms]
+2023-03-13 14:16:01.162 [info] > git show --textconv :build/docker-compose.yaml [22ms]
+2023-03-13 14:16:01.172 [info] > git show --textconv :build/dockerfile [21ms]

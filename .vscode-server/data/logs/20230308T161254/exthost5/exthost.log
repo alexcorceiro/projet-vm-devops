@@ -1,0 +1,12 @@
+2023-03-12 10:05:02.784 [info] Extension host with pid 13444 started
+2023-03-12 10:05:03.074 [info] Lock '/home/global/.vscode-server/data/User/workspaceStorage/2ad1c53d3713ce6642a363a8e76d6f50/vscode.lock': Lock acquired.
+2023-03-12 10:05:03.617 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-12 10:05:03.648 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2023-03-12 10:05:03.659 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-03-12 10:05:09.313 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-03-12 10:05:09.314 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-03-12 10:05:10.959 [info] Not activating extension 'p1c2u.docker-compose': Timed out while searching for 'workspaceContains' pattern **/docker-compose.yml
+2023-03-12 10:05:11.325 [info] Eager extensions activated
+2023-03-12 10:05:11.331 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-12 10:05:11.333 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-12 10:06:28.393 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

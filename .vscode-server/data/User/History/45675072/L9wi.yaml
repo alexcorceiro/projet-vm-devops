@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  server:
+    build: 
+       context: .
+       dockerfile: server/dockerfile
+    ports:
+      - '5400:5400'
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/myapp
+      - NODE_ENV=development
+    depends_on:
+      - mongo
+    networks:
+      - app-vm
+
+
+  client:
+    build: 
+      context: .
+      dockerfile: client/dockerfile
+    restart: always
+    ports:
+      - '3000:3000'
+    networks:
+      - app-vm
+
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    volumes:
+       - mongo-data:/data/db
+    networks:
+      - app-vm
+    expose:
+      - 27017
+
+networks:
+   app-vm:
+     driver: brige
+    
+
+volumes:
+  mongo-data:

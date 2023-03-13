@@ -1,0 +1,13 @@
+2023-02-25 02:27:43.079 [info] Extension host with pid 7531 started
+2023-02-25 02:27:43.248 [info] Lock '/home/global/.vscode-server/data/User/workspaceStorage/2ad1c53d3713ce6642a363a8e76d6f50/vscode.lock': Lock acquired.
+2023-02-25 02:27:43.395 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-25 02:27:43.417 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-02-25 02:27:43.914 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-02-25 02:27:43.916 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-02-25 02:27:45.450 [info] ExtensionService#_doActivateExtension p1c2u.docker-compose, startup: true, activationEvent: 'workspaceContains:**/docker-compose.yml'
+2023-02-25 02:27:45.835 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-25 02:27:45.836 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-25 02:27:45.837 [info] Eager extensions activated
+2023-03-10 12:42:30.859 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-03-10 12:42:30.938 [info] Lock '/home/global/.vscode-server/data/User/workspaceStorage/2ad1c53d3713ce6642a363a8e76d6f50/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-03-10 12:42:31.256 [info] Extension host with pid 7531 exiting with code 0

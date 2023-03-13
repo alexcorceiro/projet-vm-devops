@@ -1,0 +1,83 @@
+2023-03-08 16:12:54.953 [info] 
+
+
+
+
+2023-03-08 16:12:55.064 [info] Extension host agent started.
+2023-03-08 16:12:55.605 [info] [127.0.0.1][3a5f5074][ManagementConnection] New connection established.
+2023-03-08 16:12:55.637 [info] [127.0.0.1][34586c6e][ExtensionHostConnection] New connection established.
+2023-03-08 16:12:55.711 [info] [127.0.0.1][34586c6e][ExtensionHostConnection] <8008> Launched Extension Host Process.
+2023-03-08 16:12:56.134 [info] Installing extensions...
+2023-03-08 16:12:58.821 [info] Installing extension 'ms-ceintl.vscode-language-pack-fr'...
+2023-03-08 16:12:58.939 [info] Getting Manifest... ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:12:59.031 [info] Installing extension: ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:13:02.463 [info] Extension signature verification: ms-ceintl.vscode-language-pack-fr. Verification status: Verified.
+2023-03-08 16:13:03.401 [info] Extracted extension to /home/global/.vscode-server/extensions/.fd9531f7-fe18-41ea-93dd-901aac6b7e3a: ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:13:03.421 [info] Renamed to /home/global/.vscode-server/extensions/ms-ceintl.vscode-language-pack-fr-1.76.2023030809
+2023-03-08 16:13:03.426 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:13:03.437 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:13:03.754 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-fr
+2023-03-08 16:13:03.757 [info] Extension 'ms-ceintl.vscode-language-pack-fr' v1.76.2023030809 was successfully installed.
+2023-03-08 16:13:06.145 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/global)
+2023-03-08 16:17:55.071 [info] New EH opened, aborting shutdown
+2023-03-10 11:13:20.114 [info] [127.0.0.1][14939d24][ManagementConnection] New connection established.
+2023-03-10 11:13:20.121 [info] [127.0.0.1][c482d66c][ExtensionHostConnection] New connection established.
+2023-03-10 11:13:20.154 [info] [127.0.0.1][c482d66c][ExtensionHostConnection] <8414> Launched Extension Host Process.
+2023-03-10 11:13:22.405 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateTitle (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-10 11:14:28.911 [info] [127.0.0.1][c38664e2][ManagementConnection] New connection established.
+2023-03-10 11:14:28.923 [info] [127.0.0.1][a0da8211][ExtensionHostConnection] New connection established.
+2023-03-10 11:14:28.937 [info] [127.0.0.1][a0da8211][ExtensionHostConnection] <8506> Launched Extension Host Process.
+2023-03-10 11:14:31.217 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateTitle (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-10 11:14:42.717 [info] [127.0.0.1][c38664e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-10 11:14:42.749 [info] [127.0.0.1][a0da8211][ExtensionHostConnection] <8506> Extension Host Process exited with code: 0, signal: null.
+2023-03-10 11:14:54.616 [info] [127.0.0.1][d3419122][ManagementConnection] New connection established.
+2023-03-10 11:14:54.629 [info] [127.0.0.1][06e2d910][ExtensionHostConnection] New connection established.
+2023-03-10 11:14:54.637 [info] [127.0.0.1][06e2d910][ExtensionHostConnection] <8594> Launched Extension Host Process.
+2023-03-10 11:14:57.133 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:6849)
+    at S.updateTitle (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at l.s (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at l.q (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at n.invoke (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:2070)
+    at c.fire (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:11:1708)
+    at process.T (/home/global/.vscode-server/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/out/vs/platform/terminal/node/ptyHostMain.js:9:20949)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-03-10 11:15:01.254 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/global)
+2023-03-10 11:18:20.681 [info] [127.0.0.1][34586c6e][ExtensionHostConnection] <8008> Extension Host Process exited with code: 0, signal: null.
+2023-03-12 10:04:59.659 [info] [127.0.0.1][bf84ef07][ManagementConnection] New connection established.
+2023-03-12 10:04:59.676 [info] [127.0.0.1][bbd28977][ExtensionHostConnection] New connection established.
+2023-03-12 10:04:59.746 [info] [127.0.0.1][bbd28977][ExtensionHostConnection] <13444> Launched Extension Host Process.
+2023-03-12 10:10:00.404 [info] [127.0.0.1][c482d66c][ExtensionHostConnection] <8414> Extension Host Process exited with code: 0, signal: null.
+2023-03-12 10:10:00.499 [info] [127.0.0.1][06e2d910][ExtensionHostConnection] <8594> Extension Host Process exited with code: 0, signal: null.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

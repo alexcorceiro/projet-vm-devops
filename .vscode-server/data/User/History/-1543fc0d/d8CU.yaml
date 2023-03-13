@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./server
+    ports:
+      - '5400:5400'
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/myapp
+    depends_on:
+      - mongo
+    volumes:
+      - ./server:/usr/src/server
+
+  frontend:
+    build: ./client
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./client:/usr/src/app
+
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+

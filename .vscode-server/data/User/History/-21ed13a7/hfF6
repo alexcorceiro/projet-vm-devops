@@ -1,0 +1,21 @@
+FROM  node:14
+
+COPY . .
+
+RUN apk add --no-cache git
+
+RUN git clone https://github.com/SpeedySpy/vm-app.git
+
+WORKDIR /app
+
+RUN npm install
+
+
+RUN cd client && npm install
+
+RUN cd server && npm install
+
+
+
+CMD [ "npm", "start" ]
+

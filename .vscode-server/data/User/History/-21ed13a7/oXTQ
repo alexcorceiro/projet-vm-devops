@@ -1,0 +1,22 @@
+FROM node:14-alpine
+
+
+WORKDIR /app
+
+
+RUN apk update && apk add --no-cache git
+RUN git clone https://github.com/alexcorceiro/projet-vm.git .
+
+
+RUN npm install
+
+RUN cd client && npm install
+
+RUN cd server && npm install
+
+
+EXPOSE 3000
+EXPOSE 5400
+
+
+CMD ["npm", "start"]
